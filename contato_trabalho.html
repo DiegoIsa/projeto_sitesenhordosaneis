@@ -55,28 +55,28 @@
     ></label>
   </fieldset>
 
-  <label for="filme favorito">Escolha seu filme favorito:</label>
-  <select name="filme favorito" id="filme_favorito">
-    <option value="a_sociedade_do_anel">A Sociedade do Anel</option>
-    <option value="as_duas_torres">As Duas Torres</option>
-    <option value="o_retorno_do_rei">O Retorno do Rei</option>
-  </select>
+  <label for="filme_favorito">Escolha seu filme favorito:</label>
+        <select name="filme_favorito" id="filme_favorito">
+            <option value="a_sociedade_do_anel">A Sociedade do Anel</option>
+            <option value="as_duas_torres">As Duas Torres</option>
+            <option selected value="o_retorno_do_rei">O Retorno do Rei</option><br><br>
+        </select><br><br>
 
-  <label for="local">Escolha um local da Terra Média:</label>
-  <select name="local" id="local"></select>
-  <optgroup label="Reino dos Homens">
-      <option value="gondor">Gondor</option>
-      <option value="rohan">Rohan</option>
-  </optgroup>
-  <optgroup label="Terras elficas">
-      <option value="valfenda">Valfenda</option>
-      <option value="lothlorien">Lothlorien</option>
-  </optgroup>
-  <optgroup label="Outros">
-      <option value="mordor">Mordor</option>
-      <option value="condado">Condado</option>
-  </optgroup>
-  <select><br><br>
+   <label for="local">Escolha um local da Terra Média:</label><!--input/label de seleção com grupos (optgroup)-->
+        <select name="local" id="local">
+            <optgroup label="Reino dos homens">
+                <option value="gondor">Gondor</option>
+                <option value="rohan">Rohan</option>
+            </optgroup>
+            <optgroup label="Terras elficas">
+                <option value="valfenda">Valfenda</option>
+                <option value="lothlorien">Lothlórien</option>
+            </optgroup>
+            <optgroup label="Outros">
+                <option value="mordor">Mordor</option>
+                <option value="condado">Condado</option>
+            </optgroup>
+        </select><br><br>
   
     <fieldset>
         <legend>Suas habilidades:</legend>
