@@ -11,3 +11,7 @@
 #layout{
     display: flex;
 }
+
+.rodape{
+    text-align: center;
+}
