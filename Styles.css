@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .titulo_secundario{
     background-color: #2F4F2F;
@@ -14,4 +16,11 @@
 
 .rodape{
     text-align: center;
+}
+
+body{
+    background-color: #000000;/*Cor de fundo do elemento HTML*/
+    color:Rgb(255,255,255); /*Cor da fonte*/
+    /*font-family: Arial, Helvetica, sans-serif;Fonte do texto, ordem de precedência*/
+    font-family: "Roboto", sans-serif;
 }
