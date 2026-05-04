@@ -27,14 +27,41 @@ body{
     color:Rgb(255,255,255); /*Cor da fonte*/
     /*font-family: Arial, Helvetica, sans-serif;Fonte do texto, ordem de precedência*/
     font-family: "Roboto", sans-serif;
-    font-size: 16px; /*Tamanho da fonte*/
+    font-size: 16px; /*Tamanho da fonte - px/em/rem*/
+}
+
+#layout{
+    font-size: 1em; /*Herda o tamanho do pai dele (no nosso caso o body) com um multiplicador*/
+    display: flex; /*E quando quiser alterar os filhos de um pai*/
+    flex-direction: column;
     font-style: normal; /*Estilo de fonte italic - oblique - normal*/
-    line-height: 20px; /*Espaçamento de linhas*/ 
+    line-height: 30px; /*Espaçamento de linhas*/ 
     font-weight: 400; /*Negrito no CSS*/
     text-transform: none; /*Capitalização da fonte: lowercase, uppercase, capitalize*/
     /*text-decoration: double, dashed, dotted, wavy, none*/
     word-spacing: none; /*Espaçamento entre as palavras*/
-    letter-spacing: 2px; /*Espaçamento entre letras*/
+    letter-spacing: 5px; /*Espaçamento entre letras*/
     text-indent: 20px; /*Espaçamento de identação da primeira linha dos parágrafos*/
-    text-align: justify; /*Alinhamento de texto: center, left, justify, right*/
+    text-align: justify; /*Alinhamento de texto: center - left - right - justify e center*/
+    /*border-style: dashed; /*solid, dashed, dotted, double, groove, ridge, inset, outset
+    border-width: 20px; /*Espessura da borda
+    border-color: rgb(153,255,153); Cor da borda, pode ser hexadecimal, nome da cor, rgb, etc...*/
+    border: dashed 20px Rgb(153,225,153); /*Escrever estilo, espessura e cor na mesma linha*/
+    border-bottom: dotted 10px Rgb(153,103,153); /*border-top = topo, border-bottom - embaixo - border-left e border-right - esquerda e direita*/
+    border-radius: 20px; /*Arredondar os cantos da borda*/
+    /*margin: 20px 40px 50px 100px; /*responsavel por definir o espaçamento dos meus elementos FORA DA BORDA*/
+    /*margin-top margin-right margin-bottom margin-left*/
+    margin: 20px;
+   padding: 20px 10px; /*Espaçamento dos meus elementos do lado de DENTRO DA BORDA padding-right padding-bottom padding-left padding-top*/
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.teste_display{
+    background-color: orange;
+    display: block; /*inline faz com que tudo fique na mesma linea - O block faz com que os paragrafos fiquem separados - O inline-block faz com que cada paragrafo fique em bloco um ao lado do outro - O None tira ele do site completamente - o visibility: hidden o espaço aparece mas sem os paragrafos, ficam escondidos*/
+    
+        
 }
