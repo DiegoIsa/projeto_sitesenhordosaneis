@@ -18,9 +18,23 @@
     text-align: center;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 body{
     background-color: #000000;/*Cor de fundo do elemento HTML*/
     color:Rgb(255,255,255); /*Cor da fonte*/
     /*font-family: Arial, Helvetica, sans-serif;Fonte do texto, ordem de precedência*/
     font-family: "Roboto", sans-serif;
+    font-size: 16px; /*Tamanho da fonte*/
+    font-style: normal; /*Estilo de fonte italic - oblique - normal*/
+    line-height: 20px; /*Espaçamento de linhas*/ 
+    font-weight: 400; /*Negrito no CSS*/
+    text-transform: none; /*Capitalização da fonte: lowercase, uppercase, capitalize*/
+    /*text-decoration: double, dashed, dotted, wavy, none*/
+    word-spacing: none; /*Espaçamento entre as palavras*/
+    letter-spacing: 2px; /*Espaçamento entre letras*/
+    text-indent: 20px; /*Espaçamento de identação da primeira linha dos parágrafos*/
+    text-align: justify; /*Alinhamento de texto: center, left, justify, right*/
 }
