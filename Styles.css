@@ -119,6 +119,16 @@ li{
     background-color: green;
     top: 80px;
     left: 100px;
+    
+}
+
+#teste-gradiente{
+    /*background-image: linear-gradient(to right, #8640B2 10%, #B83592 25%, #DC3D63 50%, #EF6751 60%, #FBBA68 100%); /*Definir gradiente no css to right to bottom to left to top ou em graus (xdeg) quando é um gradiente de círculo eu uso o radial-gradient*/
+    height: 500px;
+cursor: default; /*Ela altera o cursos do mouse em cima do elemento html*/
+background-image: url(img/fundo_opacidade.jpg);
+background-size: cover;
+opacity: 0.7; /*Defini a transparencia de 0 a 1*/
 }
 /*.teste_display{
 background-color:orange;
